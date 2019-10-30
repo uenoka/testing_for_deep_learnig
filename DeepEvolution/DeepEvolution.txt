@@ -1,0 +1,42 @@
+# DeepEvolution: A Search-Based Testing Approach for Deep Neural Networks
+
+## URL https://arxiv.org/pdf/1909.02563.pdf
+
+## どんなものか？
+* a novel search-based approach for testing DL models that relies on metaheuristics to ensure a maximum diversity in generated test cases.
+* サーチベースドテスティングの手法をDNNに適用し、生成されたテストケースの多様性を最大化する
+
+## 先行研究と比べてどこがすごい？
+* 量子化の際にできる潜在バグの特定で、TensorFuzzより高精度を達成
+* ニューラルカバレッジが顕著に向上
+
+## 技術や手法のキモは？
+* 次の3つの技術を使っている
+** メタモルフィックテスティング
+** Search-based testing
+** Code coverage criteria
+* Search-based testing でメタモルフィック関係を探索し、ニューラルカバレッジを向上させた。この時に利用したのが Code coverage criteria 
+
+## どうやって検証した？
+* MNIST と CIFAR-10 のデータセットに対して、DNN は TensorFlow のオープンな実装を利用し、以下の RQ で確認した。
+** RQ1: How much can DeepEvolution increase the coverage of generated test cases?
+** RQ2: Can DeepEvolution detect diverse erroneous behaviors in DNN models?
+** RQ3: Can DeepEvolution detect divergences induced by DNN quantization?
+
+
+## 議論はある？
+* 以下のような議論がある
+** 選択した研究対象（データセットやDNNのモデル）が一般化できるかどうかの問題となる
+*** この問題を軽減するために、実用的なモデルサイズでよく研究されてる MNIST と CIFAR-10 を使用した
+*** 
+
+** パラメータの設定が問題になりうる
+*** できる限りパラメータは同じ値を選択するようにし、軽減を試みている
+
+** サーチベースドテスティング の探索アルゴリズムが問題になりうる
+*** 95％の信頼レベルと5％のエラーマージンを使用して生成された画像のサンプルを選択し、手動で検証した。
+
+## 次に読むべき論文は？
+* 
+* 
+
