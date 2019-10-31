@@ -1,0 +1,50 @@
+# title
+
+## URL：https://arxiv.org/pdf/1809.01266.pdf
+
+
+## どんなものか？
+* 自動 Fuzzing フレームワーク
+* 一般的な DNN の潜在不具合を Hunting する
+* メタモルフィックミューテーション用いて意味的に保存されたテストを生成し、
+  複数のプラグ可能なカバレッジ基準をフィードバックとして活用し、様々な観点からテスト生成をガイドする
+
+## 先行研究と比べてどこがすごい？
+* ガイダンスに従って顕著にカバレッジを向上
+* 誤動作を検出し、DNNモデルの品質評価を促進するための有用なテストを生成する
+* 量子化の際の潜在的な欠陥を正確に取得する
+
+## 技術や手法のキモは？
+* Metamorphic Mutation
+* DNN Feedback
+* Batch Pool Maintenance
+
+## どうやって検証した？
+* 以下を用いて検証
+** MNIST
+** CIFAR-10
+** ImageNet
+** その他7つの DNN
+
+## 議論はある？
+* DNN モデルやデータセットの選択は検証の課題になりうる
+** この問題に対応するために、3つの良く研究されているデータセットを利用した
+* 複数ある量子化の混合サンプリングのランダム性が問題になりうる
+** 同じ設定での量子化を5回繰り返し、平均をとることで対処
+
+## 次に読むべき論文は？
+* Fuzz Testing in Traditional Software
+** AFL
+** libFuzzer
+** honggfuzz
+** FOT
+** Skyfire
+** LangFuzz
+** NEZHA
+
+* Testing and Verification of DL Systems
+** DeepCover
+** DeepTest
+** DeepXplore
+** DeepMutation
+** TensorFuzz
