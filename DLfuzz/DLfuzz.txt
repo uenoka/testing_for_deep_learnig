@@ -1,6 +1,8 @@
 # DLFuzz: Differential Fuzzing Testing of Deep Learning Systems
 
-## URL：https://arxiv.org/pdf/1808.09413.pdf
+## URL
+* Paper : https://arxiv.org/pdf/1808.09413.pdf
+* Github : https://github.com/turned2670/DLFuzz
 
 ## どんなものか？
 * 初の Differential fuzzing テストフレームワーク。
@@ -22,7 +24,9 @@
 * 
 
 ## どうやって検証した？
-* 
+* 以下の
+** MNIST
+** ImageNet
 * 
 * 
 

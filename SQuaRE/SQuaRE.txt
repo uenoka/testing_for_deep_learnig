@@ -1,0 +1,46 @@
+# Adapting SQuaRE for Quality Assessment of Artificial Intelligence Systems
+
+## URL
+* https://arxiv.org/pdf/1908.02134.pdf
+
+## どんなものか？
+* SQuaREとして知られるISO / IEC 25000シリーズに基づいて議論し、MLの独自性と欧州委員会の信頼できるAIの倫理ガイドラインにどのように適合させるべきかを特定
+** SQuaRE : Systems and software Quality Requirements and Evaluation
+* 機械学習の性質とAIの倫理を従来のソフトウェア品質の概念に組み込み、AIシステムの品質に関する全体的な洞察を提供する
+* 
+
+## 先行研究と比べてどこがすごい？
+* 今までは与えられたデータ全体の精度のみに焦点を当てていた
+* 要求に対して具体的な評価をするため、SQuaRE フレームワークを機械学習システムに適用を検討した
+* 
+
+## 技術や手法のキモは？
+* SQuaRE を機械学習システムに適用した
+** SQuaRE は有用だが、機械学習（特にDNN）にはそのまま適用できない
+*** DNNは大量のパラメータを大量のデータから作成する特性があるためブラックボックス
+** しかしAIシステムに対する要求は増加している
+*** GDPR のAIの倫理などがそれにあたる
+*** 平等性、説明性、などが課題になる
+
+## どうやって検証した？
+* SQuaRE の項目をAIシステムに適用した際の項目を精査
+** 既存の特徴をどう拡張すればよいか
+*** 具体的に既存のQMEを徹底的にチェックして
+*** 機械学習システムを検討する際に有用ではない、または適用できないメトリックを特定
+** どのような新しい特徴を追加すればよいか
+*** 倫理ガイドラインの評価項目を徹底的に特定
+
+## 議論はある？
+* 特に章としては設けられていない（個別の検討項目で検討している？）
+
+## 次に読むべき論文は？
+* Rules for reliable machine learning: Best practices for ML engineering,
+* What’s your ML test score? a rubric for ML production systems,
+* Machine learning: The high interest credit card of technical debt
+* Data management challenges in production machine learning,
+* A survey on security threats and defensive techniques of machine learning: A data driven view,
+* Explainable artificial intelligence (XAI),
+* Explaining and harnessing adversarial examples,
+* The measure and mismeasure of fairness: A critical review of fair machine learning,“ https://arxiv.org/abs/1808.00023
+* Machine learning testing: Survey, landscapes and horizons,“ https://arxiv.org/abs/1906.10742
+
