@@ -1,0 +1,33 @@
+# Guiding Deep Learning System Testing using Surprise Adequacy
+
+## URL
+* https://arxiv.org/pdf/1808.08444.pdf
+* https://github.com/coinse/sadl
+
+## どんなものか？
+* Surprise Adequacy for Deep Learning というものを提唱
+** DL system に adequacy criteria を適用
+*** adequacy criteria について : http://www.cs.toronto.edu/~chechik/courses18/csc410/Ch9-10AdequacyAndFunctional.pdf
+** 入力の Surprise を入力とトレーニングデータにおけるDLの挙動の差として測定し、それを adequacy criteria として開発
+*** 適切なテスト入力は十分であるはずですが、トレーニングデータに比べて明白である
+
+## 先行研究と比べてどこがすごい？
+* 敵対的サンプル生成に比べて、77.5% の分類の精度が高かった
+** 画像分析、自動運転など実際に実用的なDLシステムを使用
+
+## 技術や手法のキモは？
+* 
+* 
+
+## どうやって検証した？
+* 
+* 
+
+## 議論はある？
+* 
+* 
+
+## 次に読むべき論文は？
+* 
+* 
+

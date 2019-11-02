@@ -1,0 +1,24 @@
+# title
+
+## URL
+* https://github.com/ndrplz/self-driving-car/blob/master/project_1_lane_finding_basic/lane_detection.py
+* https://github.com/ndrplz/self-driving-car
+## どんなものか？
+* AIや機械学習を含んだシステムをデザインしたり分析したりするツールキット
+* 以下のようなユースケースを紹介
+** 時間論理改ざん
+** モデルベースの系統的ファズテスト
+** パラメーター合成
+** 反例分析
+** データセット拡張
+* 
+
+## 先行研究と比べてどこがすごい？
+
+## 技術や手法のキモは？
+
+## どうやって検証した？
+
+## 議論はある？
+
+## 次に読むべき論文は？
