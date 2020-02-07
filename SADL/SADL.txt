@@ -5,7 +5,7 @@
 * https://github.com/coinse/sadl
 
 ## どんなものか？
-* Surprise Adequacy for Deep Learning というものを提唱
+* Surprise Adequacy for Deep Learning という概念を提唱
 ** DL system に adequacy criteria を適用
 *** adequacy criteria について : http://www.cs.toronto.edu/~chechik/courses18/csc410/Ch9-10AdequacyAndFunctional.pdf
 ** 入力の Surprise を入力とトレーニングデータにおけるDLの挙動の差として測定し、それを adequacy criteria として開発
