@@ -1,14 +1,43 @@
 # title
+TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing
+
+## URL : https://arxiv.org/abs/1807.10875
 
 ## どんなものか？
+* ニューラルネットワークにカバレッジガイドファジング（CGF）を応用
+* DeepXprole のように、制約を満たすようにランダムに入力に摂動を加えるということ??
+（というか、CGF と DeepXprole の違いがあんまり判らない、NC の向上と制約を満たすことを目的とした摂動≒ fuzzing じゃね??）
+* 量子化したモデルと元のモデルでの異なる挙動を検出したり、言語のモデルのよくない挙動を特定
 
 ## 先行研究と比べてどこがすごい？
+* 
+* 
+* 
 
 ## 技術や手法のキモは？
+* 
+* 
+* 
 
 ## どうやって検証した？
+* 
+* 
+* 
 
 ## 議論はある？
+* 
+* 
+* 
 
 ## 次に読むべき論文は？
+* 
+* 
+* 
+
+
+
+## 単語帳
+* Corpus
+A set of inputs for a fuzz target. In most contexts, it refers to a set of minimal test inputs that generate maximal code coverage.
+
 
